@@ -26,7 +26,6 @@ def make_kpi_card(title, value):
 app.layout = html.Div([
     html.H1("Space Missions Dashboard", style={'textAlign':'center', 'marginTop':10}),
 
-    # KPI row (optional)
     html.Div(id='kpi-row', style={'display':'flex','gap':'12px','justifyContent':'center','padding':'8px 12px'}),
 
     # Filters
